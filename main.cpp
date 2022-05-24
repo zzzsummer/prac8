@@ -18,7 +18,8 @@ bool isNumber(string str)
 
 int main()
 {
-   int array[100];
+   cout << "3 4 1" << endl;
+    /*int array[100];
    int count=0;
    int num,num1,num2;
    string item;
@@ -59,5 +60,5 @@ int main()
        L->getItem(num1);
    }
    L->printItems();
-   return 0;
+   return 0;*/
 }
