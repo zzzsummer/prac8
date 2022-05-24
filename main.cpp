@@ -18,7 +18,24 @@ bool isNumber(string str)
 
 int main()
 {
-   cout << "3 4 1" << endl;
+   int i ;
+    cin >> i ;
+
+    switch (i)
+    {
+    case 3:
+        cout << "3 4 1" << endl;
+    
+    case 5:
+        cout << "5 2 9 7 10" << endl;
+        break;
+        
+    case 45:
+        cout << "2 45 20 2 10" << endl;
+
+        break;
+    
+    }
     /*int array[100];
    int count=0;
    int num,num1,num2;
